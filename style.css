@@ -1,0 +1,113 @@
+body{
+background-color: #f4f4f4;
+color: black;
+font-family: "Times new romans",Times,serif;
+line-height: 1.6em;
+font-size: 18px;
+font-weight: normal;
+margin: 0px;
+padding:0px;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+}
+
+#main-header{
+	background-color:purple;
+	color:white;
+	display:grid;
+}
+
+#main-header h1{
+       text-transform: uppercase;
+       text-align:center;
+       margin-top: 10px;
+}
+
+#nav-bar{
+	background-color: black;
+	color:white;
+	display: grid;
+}
+
+#nav-bar ul{
+	padding: 0;
+	list-style: none;
+}
+
+#nav-bar li{
+	display: inline;
+	padding: 15px;
+}	
+
+#nav-bar a{
+	text-decoration:  none;
+	font-size: 16px;
+	padding-right: 15px;
+}
+
+#nav-bar a:hover{
+	color:white;
+}
+
+#nav-bar a:active{
+     color: yellow;
+}
+
+#showcase {
+	color:red;
+	font-size:20px;
+	line-height: 1.6em;
+	padding-top: 30px;
+	text-align: center;
+}
+
+#showcase {
+	background-image:url(../images/Tulips.jpg);
+	background-position: center-right;
+	min-height: 300px;
+	padding-top: 30px;
+}
+
+#main-bar{
+	float: left;
+	width: 60%;
+	padding:30px;
+	box-sizing: border-box;
+}
+
+#side-bar{
+	float:right;
+	border:2px purple dotted;
+	background-color: green;
+	color:white;   
+	width: 30.5%;
+	padding:30px;
+	box-sizing: border-box;
+}
+
+.clr{
+	clear:both;
+}
+
+#main-footer {
+	background-color: black;
+	color:white;
+	text-align: center;
+	padding: 10px;
+	margin-top: 40px;
+}
+
+@media(max-width: 600px){
+	#main{
+		width:100%;
+		float:none;
+	}
+
+	#sidebar{
+		width:100%;
+		float:none;
+	}
+}
